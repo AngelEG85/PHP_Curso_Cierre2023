@@ -119,42 +119,68 @@ Class API{
 }
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consumir la API</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-        <div class="container caja">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table id="tablaProductos" class="table table-striped table-bordered table-condensed" style="width:100%">
-                            <thead class="text-center">
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Producto</th>
-                                    <th>Precio</th>
-                                    <th>Cantidad</th>
-                                </tr>
-                            </thead>
-                            <tbody id="contenido">
-
-                            </tbody>
-                        </table>
-                    </div>
+    <div class="container caja">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="table-responsive">
+                    <table id="tablaProductos" class="table table-striped table-bordered table-condensed" style="width:100%">
+                        <thead class="text-center">
+                            <tr>
+                                <th>ID</th>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contenido">
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-  
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            getProductos();
+
+            function getProductos() {
+                var url = 'http://localhost/apirest_php/api/productos';
+
+                $.ajax({
+                    type: 'GET',
+                    url: url,
+                    dataType: 'json',
+                    success: function(respuesta) {
+                        console.log(respuesta);
+                        var productos = respuesta.results; // Ajusta según la estructura de tu API
+                        if (productos && productos.length > 0) {
+                            $.each(productos, function(i, prod) {
+                                var btnEditar = "<button class='btn btn-primary btn-sm btnEditar'>Editar</button>";
+                                var btnBorrar = "<button class='btn btn-danger btn-sm btnBorrar'><i class='material-icons'>Borrar</i></button>";
+                                $('#contenido').append('<tr><td>' + prod.id + '</td><td>' + prod.nombre + '</td><td>' + prod.precio + '</td><td>' + prod.cantidad + '</td><td>' + btnEditar + btnBorrar + '</td></tr>');
+                            });
+                        }
+                    },
+                    error: function(error) {
+                        console.log('Error:', error);
+                    }
+                });
+            }
+        });
+    </script>
 </body>
-
-<script src="prueba.js"></script>
 </html>
-
 
 
 

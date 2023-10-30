@@ -51,17 +51,6 @@ $(document).ready(function () {
     }
   });
 
-//  var tablaProductos = $("#tablaProductos").DataTable({
-    $.ajax({
-      url: 'http://localhost/apirest_php/api/productos',
-      method: "GET", //usamos el metodo GET
-      cache:false,
-      contentType:false,
-      success: function(respuesta){
-        console.log(respuesta);
-      }
-    })
-
 
   var fila; //captura la fila, para editar o eliminar
   //submit para el Alta y Actualización
