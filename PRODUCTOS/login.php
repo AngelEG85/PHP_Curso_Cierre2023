@@ -33,15 +33,11 @@
             </div>
         </div>
     </div>
-
- 
-     
+      
     <script src="jquery.min.js"></script>
     <script src="js/sb-admin-2.min.js"></script>
   
-    
-
-  
+      
     
 </body>
 
