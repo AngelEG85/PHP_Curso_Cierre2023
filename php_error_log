@@ -1,0 +1,170 @@
+
+[28-Oct-2023 03:39:16 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:39:46 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:39:47 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:39:47 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:40:09 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:40:10 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:40:10 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:44:00 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:44:03 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:50:08 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:50:08 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:50:09 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:50:09 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:50:09 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 03:50:49 Europe/Berlin] PHP Notice:  Undefined offset: 4 in C:\xampp\htdocs\apirest_php\api\Router\router.php on line 29
+[28-Oct-2023 15:01:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(39): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 11
+[28-Oct-2023 15:02:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(39): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 11
+[29-Oct-2023 18:58:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 11
+[29-Oct-2023 19:00:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:00:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:03:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:04:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:04:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:04:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:04:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:04:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:04:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:05:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:05:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:05:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:05:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:10
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 10
+[29-Oct-2023 19:08:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 11
+[29-Oct-2023 19:08:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 11
+[29-Oct-2023 19:08:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\apirest_php\api\Router\services\post.php:11
+Stack trace:
+#0 C:\xampp\htdocs\apirest_php\api\Router\router.php(23): include()
+#1 C:\xampp\htdocs\apirest_php\api\Controllers\router.Controllers.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\apirest_php\api\index.php(25): RouterControllers->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 11
+[29-Oct-2023 19:12:10 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:08 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:09 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:09 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:09 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:10 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:10 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:10 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:10 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:10 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:15:11 Europe/Berlin] PHP Warning:  file_get_contents(p,truehp://input): failed to open stream: No such file or directory in C:\xampp\htdocs\apirest_php\api\Router\services\post.php on line 9
+[29-Oct-2023 19:19:27 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\apirest_php\api\Controllers\post.controller.php on line 26
+[29-Oct-2023 19:20:22 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\apirest_php\api\Controllers\post.controller.php on line 26
+[29-Oct-2023 19:21:19 Europe/Berlin] PHP Notice:  Array to string conversion in C:\xampp\htdocs\apirest_php\api\Controllers\post.controller.php on line 26
+[29-Oct-2023 21:37:00 Europe/Berlin] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\apirest_php\api\Models\delete.models.php on line 15
+[29-Oct-2023 22:01:23 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\apirest_php\api\Router\services\put.php on line 11
+[30-Oct-2023 03:56:05 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\apirest_php\api\Router\services\get.php on line 9
+[30-Oct-2023 03:56:09 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\apirest_php\api\Router\services\get.php on line 9
+[30-Oct-2023 13:11:28 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\apirest_php\api\Router\services\get.php on line 9
+[30-Oct-2023 13:47:12 Europe/Berlin] PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\apirest_php\api\Router\services\get.php on line 9
+[30-Oct-2023 19:31:26 Europe/Berlin] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\xampp\htdocs\apirest_php\api\Models\get.models.php on line 13

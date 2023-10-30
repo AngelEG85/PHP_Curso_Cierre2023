@@ -1,0 +1,9 @@
+#evita ingresar a los directorios
+
+Options All -Indexes
+
+#Enciende el motor de re-escritura
+RewriteEngine On
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.php [L]
