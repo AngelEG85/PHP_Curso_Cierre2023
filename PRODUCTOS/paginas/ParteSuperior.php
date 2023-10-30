@@ -1,10 +1,4 @@
-<?php
-include 'Logica/database.php';
- session_start();
- 
- //$usuario = $_SESSION['s_NombreUsuario'];
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -22,6 +22,7 @@
                             <th>Producto</th>
                             <th>Precio</th>
                             <th>Cantidad</th>
+                            <th>Acción</th>
                         </tr>
                     </thead>
                     <tbody id="contenido">

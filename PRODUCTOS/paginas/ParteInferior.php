@@ -104,7 +104,31 @@
 
     })
 
-    $("#Tabla").load('tabla.php');
+    getProductos();
+
+    function getProductos() {
+        var url = 'http://localhost/apirest_php/api/productos';
+
+        $.ajax({
+            type: 'GET',
+            url: url,
+            dataType: 'json',
+            success: function(respuesta) {
+                console.log(respuesta);
+                var productos = respuesta.results; // Ajusta según la estructura de tu API
+                if (productos && productos.length > 0) {
+                    $.each(productos, function(i, prod) {
+                        var btnEditar = "<button class='btn btn-primary btn-sm btnEditar'>Editar</button>";
+                        var btnBorrar = "<button class='btn btn-danger btn-sm btnBorrar'><i class='material-icons'>Borrar</i></button>";
+                        $('#contenido').append('<tr><td>' + prod.id + '</td><td>' + prod.nombre + '</td><td>' + prod.precio + '</td><td>' + prod.cantidad + '</td><td>' + btnEditar + btnBorrar + '</td></tr>');
+                    });
+                }
+            },
+            error: function(error) {
+                console.log('Error:', error);
+            }
+        });
+    }
 
   });
 </script>

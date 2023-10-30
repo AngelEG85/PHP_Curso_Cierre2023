@@ -51,7 +51,6 @@ $(document).ready(function () {
     }
   });
 
-
   var fila; //captura la fila, para editar o eliminar
   //submit para el Alta y Actualización
   $("#formProductos").submit(function (e) {
